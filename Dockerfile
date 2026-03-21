@@ -1,4 +1,4 @@
 FROM sipeed/picoclaw:launcher
 
 # Install nodejs
-RUN apk add --no-cache nodejs npm
+RUN apk add --no-cache nodejs npm ffmpeg
