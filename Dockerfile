@@ -1,4 +1,4 @@
-FROM sipeed/picoclaw:nightly-launcher
+FROM sipeed/picoclaw:launcher
 
 ENV PATH="/root/.local/bin:$PATH"
 
