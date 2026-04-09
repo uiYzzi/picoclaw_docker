@@ -6,7 +6,7 @@ ENV PATH="/root/.local/bin:$PATH"
 RUN apk add --no-cache nodejs npm ffmpeg 7zip github-cli curl python3 py3-pip pandoc-cli texlive-most
 
 # Install lark-cli
-RUN curl -sSL https://github.com/larksuite/cli/releases/download/v1.0.0/lark-cli-1.0.0-linux-amd64.tar.gz | tar -xz -C /usr/local/bin/ lark-cli && \
+RUN curl -sSL https://github.com/larksuite/cli/releases/download/v1.0.6/lark-cli-1.0.6-linux-amd64.tar.gz | tar -xz -C /usr/local/bin/ lark-cli && \
     chmod +x /usr/local/bin/lark-cli
 
 # Install agent-browser
