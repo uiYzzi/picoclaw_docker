@@ -13,6 +13,9 @@ RUN curl -sSL https://github.com/larksuite/cli/releases/download/v1.0.6/lark-cli
 RUN npm install -g agent-browser
 RUN agent-browser install
 
+# Install mineru
+RUN npm install -g mineru-open-api
+
 # Install uv
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 
